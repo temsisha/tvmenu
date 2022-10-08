@@ -5,7 +5,7 @@ export default function Beer ({beer}){
             <div className="tvmenu">
                 <div className="article-group">
                     <div className="logo">
-                        <img src={breweryLogo.data[0].attributes.formats.small.url} alt="" />
+                        <img src={breweryLogo.data.attributes.formats.small.url} alt="" />
                     </div>
                     <div className="brand">
                     <div className="brand-name">{beerName}</div>
