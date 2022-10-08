@@ -2,7 +2,7 @@ import '../styles/globals.css'
 import {Provider, createClient } from "urql";
 
 const client = createClient({url: process.env.NEXT_PUBLIC_BECKEND_API});
-
+//test
 function MyApp({ Component, pageProps }) {
   return (
     <Provider value={client}>
