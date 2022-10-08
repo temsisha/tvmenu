@@ -25,8 +25,8 @@ export default function Home() {
       </Head>
 
       <main>
-        {beers.map((beer) => (
-          <Beer beer={beer}/>
+        {beers.map((beer, index) => (
+          <Beer key={index} beer={beer}/>
         ))}
       </main>
 
