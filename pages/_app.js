@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import {Provider, createClient } from "urql";
 
-const client = createClient({url: 'https://dry-earth-18608.herokuapp.com/graphql'});
+const client = createClient({url: process.env.NEXT_PUBLIC_BECKEND_API});
 
 function MyApp({ Component, pageProps }) {
   return (
