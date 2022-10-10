@@ -24,11 +24,13 @@ export default function Home() {
         <link rel="stylesheet" href="https://use.typekit.net/jpn8kiv.css" />
       </Head>
 
-      <main>
+      <div className="tvmenu">
+        <div className="left-side">
         {beers.map((beer, index) => (
           <Beer key={index} beer={beer}/>
         ))}
-      </main>
+        </div>
+      </div>
 
     </div>
   )
