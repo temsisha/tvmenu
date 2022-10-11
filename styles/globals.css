@@ -1,8 +1,12 @@
 
 
 body {
-  background-color: black;
+  /* background-color: black; */
+  background-image: url('/imgs/tvmenuBG.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   overflow: hidden;
+  zoom:90%;
 }
 
 * {
