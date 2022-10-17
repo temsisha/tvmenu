@@ -1,12 +1,15 @@
 export default function Beer ({beer}){
-    const {beerName, beerType, beerABV, beerIBU, beerLowPrice, beerHighPrice, breweryLogo} = beer.attributes;
+    const {beerName, beerType, beerABV, beerIBU, newBeer, beerLowPrice, beerHighPrice, breweryLogo} = beer.attributes;
     return (
         <div className="article-group">
             <div className="logo">
                 <img src={breweryLogo.data.attributes.formats.small.url} alt="" />
             </div>
             <div className="brand">
-            <div className="brand-name">{beerName}</div>
+            <div className="brand-visability">
+                <div className="brand-name">{beerName}</div>
+                <div className={newBeer ? "notify-badge" : ""}> {newBeer ? "NEW" : ""}</div>
+            </div>
                 <div className="brand-details">
                     <div className="brand-type">{beerType} <span className="separator">|</span> ABV <span className="type-detailed">{beerABV}</span> <span className="separator">|</span> IBU <span className="type-detailed">{beerIBU}</span></div>
                 </div>

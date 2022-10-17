@@ -95,3 +95,22 @@ body {
 .type-detailed {
   color:white;
 }
+
+.brand-visability {
+  display: flex;
+  align-items: center;
+}
+
+  .notify-badge {
+      background: red;
+      height: 2rem;
+      width: 4rem;
+      text-align: center;
+      line-height: 33px;
+      font-size: 1.2rem;
+      border-radius: 10px;
+      color: white;
+      margin-left: 10px;
+      font-family: roboto;
+      font-weight: bold;
+}
