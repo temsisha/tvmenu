@@ -16,7 +16,7 @@ export default function Beer ({beer}){
             </div>
             <div className="brand-price">
                 <div className="price-tap-small">TAP 0.3 RSD {beerLowPrice}</div>
-                <div className="brand-price-big">TAP 0.3 RSD {beerHighPrice}</div>
+                <div className="brand-price-big">TAP 0.5 RSD {beerHighPrice}</div>
             </div>
         </div>
     )
