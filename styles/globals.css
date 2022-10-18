@@ -102,11 +102,11 @@ body {
 }
 
   .notify-badge {
-      background: #ffcc00;
+      background: red;
       height: 2rem;
       width: 4rem;
       text-align: center;
-      line-height: 1.2rem;
+      line-height: 35px;
       font-size: 1.2rem;
       border-radius: 10px;
       color: white;
