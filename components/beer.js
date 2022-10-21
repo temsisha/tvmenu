@@ -11,7 +11,7 @@ export default function Beer ({beer}){
                 <div className={newBeer ? "notify-badge" : ""}> {newBeer ? "NEW" : ""}</div>
             </div>
                 <div className="brand-details">
-                    <div className="brand-type">{beerType} <span className="separator">|</span> ABV <span className="type-detailed">{beerABV}</span> <span className="separator">{beerIBU ? "|" : ""}</span>{beerIBU ? " IBU " : ""}<span className="type-detailed">{beerIBU ? beerIBU : ""}</span></div>
+                    <div className="brand-type">{beerType} <span className="separator">|</span> ABV <span className="type-detailed">{beerABV}</span> <span className="separator">{beerIBU ? "|" : ""}</span>{beerIBU ? " IBU " : ""}<span className="type-detailed">{beerIBU ? beerIBU : "0"}</span></div>
                 </div>
             </div>
             <div className="brand-price">
