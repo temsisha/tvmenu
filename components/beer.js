@@ -5,7 +5,7 @@ export default function Beer ({beer}){
     return (
         <div className="article-group">
             <div className="logo">
-                <img src="https://res.cloudinary.com/dal7ujss6/image/upload/v1666102935/primator_weisse_058d5e8f5a.jpg" alt="" />
+                <img src={url} alt="" />
             </div>
             <div className="brand">
             <div className="brand-visability">
