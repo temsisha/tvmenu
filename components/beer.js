@@ -3,7 +3,7 @@ export default function Beer ({beer}){
     return (
         <div className="article-group">
             <div className="logo">
-                <img src={breweryLogo.attributes.url} alt="" />
+                <img src={breweryLogo.data.attributes.formats.small.url} alt="" />
             </div>
             <div className="brand">
             <div className="brand-visability">
