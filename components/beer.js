@@ -1,6 +1,7 @@
 export default function Beer ({beer}){
     const {beerName, beerType, beerABV, beerIBU, newBeer, beerLowPrice, beerHighPrice, breweryLogo} = beer && beer.attributes;
-    console.log(beer && breweryLogo.data.attributes.url)
+    const {url} = breweryLogo.data.attributes
+    console.log(attributes && url)
     return (
         <div className="article-group">
             <div className="logo">
