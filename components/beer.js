@@ -1,11 +1,9 @@
 export default function Beer ({beer}){
     const {beerName, beerType, beerABV, beerIBU, newBeer, beerLowPrice, beerHighPrice, breweryLogo} = beer && beer.attributes;
-    const {url} = breweryLogo.data.attributes
-    console.log(attributes && url)
     return (
         <div className="article-group">
             <div className="logo">
-                <img src={url} alt="" />
+                <img src="https://res.cloudinary.com/dal7ujss6/image/upload/v1666168210/brotherhood_cb64a18ecc.png" alt="" />
             </div>
             <div className="brand">
             <div className="brand-visability">
