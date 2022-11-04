@@ -3,7 +3,7 @@ export default function Beer ({beer}){
     return (
         <div className="article-group">
             <div className="logo">
-                <img src="https://res.cloudinary.com/dal7ujss6/image/upload/v1666168210/brotherhood_cb64a18ecc.png" alt="" />
+                <img src="https://res.cloudinary.com/dal7ujss6/image/upload/v1667592458/Untitled-1_cdauxz.png" alt="" />
             </div>
             <div className="brand">
             <div className="brand-visability">
