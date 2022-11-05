@@ -4,7 +4,7 @@ export default function Beer ({beer}){
     return (
         <div className="article-group">
             <div className="logo">
-                <img src="https://res.cloudinary.com/dal7ujss6/image/upload/v1667592458/Untitled-1_cdauxz.png" alt="" />
+                <img src={beer ? beer.attributes.breweryLogo.data.attributes.url : "https://res.cloudinary.com/dal7ujss6/image/upload/v1667592458/Untitled-1_cdauxz.png"} alt="" />
             </div>
             <div className="brand">
             <div className="brand-visability">
