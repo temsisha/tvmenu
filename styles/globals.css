@@ -176,8 +176,7 @@ body {
 }
   body {
     background-color:#768a5a;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image:none;
     overflow: auto;
     zoom: 110%;
 }
